@@ -42,8 +42,8 @@
         cmd_q_td: tap_dance_cmd_q_number_1 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <300>;
-            bindings = <&kp Q>, <&kp N1>;
+            tapping-term-ms = <400>;
+            bindings = <&kp Q>, <&kp LG(N1)>;
         };
 
         cmd_q_morph: cmd_q_morph {
