@@ -1,74 +1,19 @@
 layout: {zmk_keyboard: keypoint}
 layers:
-  QWERTY:
-  - {t: TAB, h: ESC}
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BSPC
-  - CAPS
-  - A
-  - S
-  - D
-  - F
-  - G
-  - '&mkp LCLK'
-  - '&mkp LCLK'
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ENTER
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - PG DN
-  - PG UP
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - RSHFT
-  - LCTRL
-  - LGUI
-  - LALT
-  - MUTE
-  - RAISE
-  - SPACE
-  - LOWER
-  - LOWER
-  - SPACE
-  - RAISE
-  - MUTE
-  - '-'
-  - '='
-  - '`'
+  QWERTY: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, CAPS, A, S, D, F, G, '&mkp LCLK', '&mkp LCLK', H, J, K, L, ;, ENTER, LSHFT, Z, X, C, V, B, PG DN, PG UP, '&msc
+      SCRL_DOWN', '&msc SCRL_UP', N, M, ',', ., /, RSHFT, LCTRL, LEFT ALT, LEFT GUI, MUTE, RAISE, SPACE, LOWER, LOWER, SPACE, RAISE, MUTE, '-', '=', '`']
   LOWER:
-  - ESC
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - TAB
+  - '&td_n1'
+  - '&td_n2'
+  - '&td_n3'
+  - '&td_n4'
+  - '&td_n5'
+  - '&td_n6'
+  - '&td_n7'
+  - '&td_n8'
+  - '&td_n9'
+  - '&td_n0'
   - DEL
   - CAPS
   - {t: ▽, type: trans}
@@ -80,8 +25,8 @@ layers:
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
+  - '='
   - ''''
   - ENTER
   - LSHFT
@@ -101,8 +46,8 @@ layers:
   - NUBS
   - RSHFT
   - LCTRL
-  - LGUI
   - '&bootloader'
+  - LEFT GUI
   - BT CLR
   - {t: ▽, type: trans}
   - SPACE
@@ -115,7 +60,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   RAISE:
-  - ESC
+  - TAB
   - F1
   - UP
   - F3
@@ -158,8 +103,8 @@ layers:
   - ''
   - ''
   - LCTRL
-  - LGUI
   - ''
+  - LEFT GUI
   - ''
   - {t: RAISE, type: held}
   - ''
@@ -215,8 +160,8 @@ layers:
   - /
   - RSHFT
   - LCTRL
-  - LGUI
-  - LALT
+  - LEFT ALT
+  - LEFT GUI
   - ''
   - RAISE
   - SPACE
