@@ -38,6 +38,78 @@
     };
 
     behaviors {
+        td_n1: tap_dance_number_1 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N1>, <&kp LG(N1)>;
+        };
+
+        td_n2: tap_dance_number_2 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N2>, <&kp LG(N2)>;
+        };
+
+        td_n3: tap_dance_number_3 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N3>, <&kp LG(N3)>;
+        };
+
+        td_n4: tap_dance_number_4 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N4>, <&kp LG(N4)>;
+        };
+
+        td_n5: tap_dance_number_5 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N5>, <&kp LG(N5)>;
+        };
+
+        td_n6: tap_dance_number_6 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N6>, <&kp LG(N6)>;
+        };
+
+        td_n7: tap_dance_number_7 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N7>, <&kp LG(N7)>;
+        };
+
+        td_n8: tap_dance_number_8 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N8>, <&kp LG(N8)>;
+        };
+
+        td_n9: tap_dance_number_9 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N9>, <&kp LG(N9)>;
+        };
+
+        td_n0: tap_dance_number_0 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N0>, <&kp LG(N0)>;
+        };
+    };
+
+    behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -92,7 +164,7 @@
         lower_layer {
             display-name = "LOWER";
             bindings = <
-&kp TAB    &kp N1       &kp N2        &kp N3      &kp N4  &kp N5     &kp N6     &kp N7     &kp N8      &kp N9      &kp N0        &kp DEL
+&kp TAB    &td_n1       &td_n2        &td_n3      &td_n4  &td_n5     &td_n6     &td_n7     &td_n8      &td_n9      &td_n0        &kp DEL
 &kp CAPS   &trans       &trans        &trans      &trans  &trans     &mkp RCLK  &mkp RCLK  &trans      &trans      &kp MINUS     &kp EQUAL  &kp SQT   &kp ENTER
 &kp LSHFT  &trans       &trans        &trans      &trans  &trans     &trans     &trans     &bl BL_DEC  &bl BL_INC  &trans        &trans     &kp LBKT  &kp RBKT   &kp NUBS  &kp RSHFT
 &kp LCTRL  &bootloader  &kp LEFT_GUI  &bt BT_CLR  &trans  &kp SPACE  &mo 1      &mo 1      &kp SPACE   &to 3       &out OUT_TOG  &BOT       &trans    &trans
