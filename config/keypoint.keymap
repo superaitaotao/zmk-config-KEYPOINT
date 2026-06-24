@@ -38,18 +38,124 @@
     };
 
     macros {
-        cmd_num: cmd_num {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
+        cmd_n1: cmd_number_1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             wait-ms = <30>;
             tap-ms = <30>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_GUI &macro_param_1to1>,
-                <&macro_tap>,
-                <&kp MACRO_PLACEHOLDER>,
-                <&macro_release>,
-                <&kp LEFT_GUI>;
+            bindings
+                = <&macro_press &kp LEFT_GUI>
+                , <&macro_tap &kp N1>
+                , <&macro_release &kp LEFT_GUI>
+                ;
+        };
+
+        cmd_n2: cmd_number_2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <30>;
+            bindings
+                = <&macro_press &kp LEFT_GUI>
+                , <&macro_tap &kp N2>
+                , <&macro_release &kp LEFT_GUI>
+                ;
+        };
+
+        cmd_n3: cmd_number_3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <30>;
+            bindings
+                = <&macro_press &kp LEFT_GUI>
+                , <&macro_tap &kp N3>
+                , <&macro_release &kp LEFT_GUI>
+                ;
+        };
+
+        cmd_n4: cmd_number_4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <30>;
+            bindings
+                = <&macro_press &kp LEFT_GUI>
+                , <&macro_tap &kp N4>
+                , <&macro_release &kp LEFT_GUI>
+                ;
+        };
+
+        cmd_n5: cmd_number_5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <30>;
+            bindings
+                = <&macro_press &kp LEFT_GUI>
+                , <&macro_tap &kp N5>
+                , <&macro_release &kp LEFT_GUI>
+                ;
+        };
+
+        cmd_n6: cmd_number_6 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <30>;
+            bindings
+                = <&macro_press &kp LEFT_GUI>
+                , <&macro_tap &kp N6>
+                , <&macro_release &kp LEFT_GUI>
+                ;
+        };
+
+        cmd_n7: cmd_number_7 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <30>;
+            bindings
+                = <&macro_press &kp LEFT_GUI>
+                , <&macro_tap &kp N7>
+                , <&macro_release &kp LEFT_GUI>
+                ;
+        };
+
+        cmd_n8: cmd_number_8 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <30>;
+            bindings
+                = <&macro_press &kp LEFT_GUI>
+                , <&macro_tap &kp N8>
+                , <&macro_release &kp LEFT_GUI>
+                ;
+        };
+
+        cmd_n9: cmd_number_9 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <30>;
+            bindings
+                = <&macro_press &kp LEFT_GUI>
+                , <&macro_tap &kp N9>
+                , <&macro_release &kp LEFT_GUI>
+                ;
+        };
+
+        cmd_n0: cmd_number_0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <30>;
+            bindings
+                = <&macro_press &kp LEFT_GUI>
+                , <&macro_tap &kp N0>
+                , <&macro_release &kp LEFT_GUI>
+                ;
         };
     };
 
@@ -58,70 +164,70 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <400>;
-            bindings = <&kp N1>, <&cmd_num N1>;
+            bindings = <&kp N1>, <&cmd_n1>;
         };
 
         td_n2: tap_dance_number_2 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <400>;
-            bindings = <&kp N2>, <&cmd_num N2>;
+            bindings = <&kp N2>, <&cmd_n2>;
         };
 
         td_n3: tap_dance_number_3 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <400>;
-            bindings = <&kp N3>, <&cmd_num N3>;
+            bindings = <&kp N3>, <&cmd_n3>;
         };
 
         td_n4: tap_dance_number_4 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <400>;
-            bindings = <&kp N4>, <&cmd_num N4>;
+            bindings = <&kp N4>, <&cmd_n4>;
         };
 
         td_n5: tap_dance_number_5 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <400>;
-            bindings = <&kp N5>, <&cmd_num N5>;
+            bindings = <&kp N5>, <&cmd_n5>;
         };
 
         td_n6: tap_dance_number_6 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <400>;
-            bindings = <&kp N6>, <&cmd_num N6>;
+            bindings = <&kp N6>, <&cmd_n6>;
         };
 
         td_n7: tap_dance_number_7 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <400>;
-            bindings = <&kp N7>, <&cmd_num N7>;
+            bindings = <&kp N7>, <&cmd_n7>;
         };
 
         td_n8: tap_dance_number_8 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <400>;
-            bindings = <&kp N8>, <&cmd_num N8>;
+            bindings = <&kp N8>, <&cmd_n8>;
         };
 
         td_n9: tap_dance_number_9 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <400>;
-            bindings = <&kp N9>, <&cmd_num N9>;
+            bindings = <&kp N9>, <&cmd_n9>;
         };
 
         td_n0: tap_dance_number_0 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <400>;
-            bindings = <&kp N0>, <&cmd_num N0>;
+            bindings = <&kp N0>, <&cmd_n0>;
         };
     };
 
