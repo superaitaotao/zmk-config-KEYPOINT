@@ -4,30 +4,30 @@ layers:
       SCRL_DOWN', '&msc SCRL_UP', N, M, ',', ., /, RSHFT, LCTRL, LEFT ALT, LEFT GUI, MUTE, RAISE, SPACE, LOWER, LOWER, SPACE, RAISE, MUTE, '-', '=', '`']
   LOWER:
   - TAB
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - DEL
-  - CAPS
   - '!'
   - '@'
   - '#'
   - $
   - '%'
-  - '&mkp RCLK'
-  - '&mkp RCLK'
-  - ':'
-  - +
+  - ^
+  - '&'
+  - '*'
   - (
   - )
-  - ;
+  - DEL
+  - CAPS
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '&mkp RCLK'
+  - '&mkp RCLK'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - ENTER
   - LSHFT
   - {t: ▽, type: trans}
