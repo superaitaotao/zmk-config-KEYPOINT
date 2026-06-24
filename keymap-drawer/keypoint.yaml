@@ -82,8 +82,8 @@ layers:
   - ''
   - F11
   - F12
-  - ''
-  - ''
+  - '-'
+  - +
   - '&cmd_lbkt'
   - '&cmd_rbkt'
   - LSHFT
