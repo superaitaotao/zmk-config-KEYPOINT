@@ -84,8 +84,8 @@ layers:
   - F12
   - ''
   - ''
-  - Gui+[
-  - Gui+]
+  - AC BACK
+  - AC FORWARD
   - LSHFT
   - '&cmd_n6'
   - '&cmd_n7'
