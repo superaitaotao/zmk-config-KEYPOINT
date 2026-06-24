@@ -286,7 +286,7 @@
         lower_layer {
             display-name = "LOWER";
             bindings = <
-&kp TAB    &td_n1       &td_n2        &td_n3      &td_n4  &td_n5     &td_n6     &td_n7     &td_n8      &td_n9      &td_n0        &kp DEL
+&kp TAB    &kp N1       &kp N2        &kp N3      &kp N4  &kp N5     &kp N6     &kp N7     &kp N8      &kp N9      &kp N0        &kp DEL
 &kp CAPS   &trans       &trans        &trans      &trans  &trans     &mkp RCLK  &mkp RCLK  &trans      &trans      &kp MINUS     &kp EQUAL  &kp SQT   &kp ENTER
 &kp LSHFT  &trans       &trans        &trans      &trans  &trans     &trans     &trans     &bl BL_DEC  &bl BL_INC  &trans        &trans     &kp LBKT  &kp RBKT   &kp NUBS  &kp RSHFT
 &kp LCTRL  &bootloader  &kp LEFT_GUI  &bt BT_CLR  &trans  &kp SPACE  &mo 1      &mo 1      &kp SPACE   &to 3       &out OUT_TOG  &BOT       &trans    &trans
@@ -299,8 +299,8 @@
             display-name = "RAISE";
             bindings = <
 &kp TAB    &kp F1  &kp F2        &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8   &kp F9   &kp F10  &none
-&kp CAPS   &none   &none         &none   &none   &none   &none   &none   &kp F11  &kp F12  &none    &none           &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LSHFT  &none   &none         &none   &none   &none   &none   &none   &none    &none    &none    &none           &none             &none              &kp UP_ARROW  &none
+&kp CAPS   &cmd_n1 &cmd_n2       &cmd_n3 &cmd_n4 &cmd_n5 &none   &none   &kp F11  &kp F12  &none    &none           &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LSHFT  &cmd_n6 &cmd_n7       &cmd_n8 &cmd_n9 &cmd_n0 &none   &none   &none    &none    &none    &none           &none             &none              &kp UP_ARROW  &none
 &kp LCTRL  &none   &kp LEFT_GUI  &none   &mo 2   &none   &none   &none   &none    &mo 2    &none    &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW
             >;
         };
