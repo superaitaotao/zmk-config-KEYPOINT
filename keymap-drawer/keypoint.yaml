@@ -43,7 +43,7 @@ layers:
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - NUBS
+  - \
   - RSHFT
   - LCTRL
   - '&bootloader'
