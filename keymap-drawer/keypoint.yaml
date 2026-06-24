@@ -4,16 +4,16 @@ layers:
       SCRL_DOWN', '&msc SCRL_UP', N, M, ',', ., /, RSHFT, LCTRL, LEFT ALT, LEFT GUI, MUTE, RAISE, SPACE, LOWER, LOWER, SPACE, RAISE, MUTE, '-', '=', '`']
   LOWER:
   - TAB
-  - '&td_n1'
-  - '&td_n2'
-  - '&td_n3'
-  - '&td_n4'
-  - '&td_n5'
-  - '&td_n6'
-  - '&td_n7'
-  - '&td_n8'
-  - '&td_n9'
-  - '&td_n0'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - DEL
   - CAPS
   - {t: ▽, type: trans}
@@ -73,11 +73,11 @@ layers:
   - F10
   - ''
   - CAPS
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&cmd_n1'
+  - '&cmd_n2'
+  - '&cmd_n3'
+  - '&cmd_n4'
+  - '&cmd_n5'
   - ''
   - ''
   - F11
@@ -87,11 +87,11 @@ layers:
   - '['
   - ']'
   - LSHFT
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&cmd_n6'
+  - '&cmd_n7'
+  - '&cmd_n8'
+  - '&cmd_n9'
+  - '&cmd_n0'
   - ''
   - ''
   - ''
