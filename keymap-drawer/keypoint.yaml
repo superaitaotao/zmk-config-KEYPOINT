@@ -98,8 +98,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - '&cmd_lbkt'
+  - '&cmd_rbkt'
   - UP ARROW
   - ''
   - LCTRL
