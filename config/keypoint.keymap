@@ -157,6 +157,30 @@
                 ;
         };
 
+        cmd_lbkt: cmd_left_bracket {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <30>;
+            bindings
+                = <&macro_press &kp LEFT_GUI>
+                , <&macro_tap &kp LBKT>
+                , <&macro_release &kp LEFT_GUI>
+                ;
+        };
+
+        cmd_rbkt: cmd_right_bracket {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <30>;
+            bindings
+                = <&macro_press &kp LEFT_GUI>
+                , <&macro_tap &kp RBKT>
+                , <&macro_release &kp LEFT_GUI>
+                ;
+        };
+
     };
 
     behaviors {
@@ -217,7 +241,7 @@
             display-name = "RAISE";
             bindings = <
 &kp TAB    &kp F1  &kp F2        &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8   &kp F9   &kp F10  &none
-&kp CAPS   &cmd_n1 &cmd_n2       &cmd_n3 &cmd_n4 &cmd_n5 &none   &none   &kp F11  &kp F12  &none    &none           &kp C_AC_BACK      &kp C_AC_FORWARD
+&kp CAPS   &cmd_n1 &cmd_n2       &cmd_n3 &cmd_n4 &cmd_n5 &none   &none   &kp F11  &kp F12  &none    &none           &cmd_lbkt         &cmd_rbkt
 &kp LSHFT  &cmd_n6 &cmd_n7       &cmd_n8 &cmd_n9 &cmd_n0 &none   &none   &none    &none    &none    &none           &none             &none              &kp UP_ARROW  &none
 &kp LCTRL  &none   &kp LEFT_GUI  &none   &mo 2   &none   &none   &none   &none    &mo 2    &none    &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW
             >;
