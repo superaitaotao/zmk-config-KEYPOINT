@@ -62,7 +62,7 @@ layers:
   RAISE:
   - TAB
   - F1
-  - UP
+  - F2
   - F3
   - F4
   - F5
@@ -73,9 +73,9 @@ layers:
   - F10
   - ''
   - CAPS
-  - LEFT
-  - DOWN
-  - RIGHT
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -84,8 +84,8 @@ layers:
   - F12
   - ''
   - ''
-  - ''
-  - ''
+  - '['
+  - ']'
   - LSHFT
   - ''
   - ''
@@ -100,7 +100,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - UP ARROW
   - ''
   - LCTRL
   - ''
@@ -113,9 +113,9 @@ layers:
   - ''
   - RAISE
   - ''
-  - ''
-  - ''
-  - ''
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   MOUSE:
   - TAB
   - Q
