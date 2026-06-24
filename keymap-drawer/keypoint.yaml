@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: keypoint}
 layers:
-  QWERTY: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, CAPS, A, S, D, F, G, '&mkp LCLK', '&mkp LCLK', H, J, K, L, ;, ENTER, LSHFT, Z, X, C, V, B, PG DN, PG UP, '&msc
+  QWERTY: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, CAPS, A, S, D, F, G, '&mkp LCLK', '&mkp LCLK', H, J, K, L, '''', ENTER, LSHFT, Z, X, C, V, B, PG DN, PG UP, '&msc
       SCRL_DOWN', '&msc SCRL_UP', N, M, ',', ., /, RSHFT, LCTRL, LEFT ALT, LEFT GUI, MUTE, RAISE, SPACE, LOWER, LOWER, SPACE, RAISE, MUTE, '-', '=', '`']
   LOWER:
   - TAB
@@ -16,18 +16,18 @@ layers:
   - '0'
   - DEL
   - CAPS
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
   - '&mkp RCLK'
   - '&mkp RCLK'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '-'
-  - '='
-  - ''''
+  - ':'
+  - +
+  - (
+  - )
+  - ;
   - ENTER
   - LSHFT
   - {t: ▽, type: trans}
