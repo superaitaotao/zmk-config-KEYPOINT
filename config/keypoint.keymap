@@ -5,7 +5,6 @@
  */
 
 #include <dt-bindings/zmk/mouse.h>
-#include <behaviors/mouse_key_toggle.dtsi> // for &mktg
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
